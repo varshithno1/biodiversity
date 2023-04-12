@@ -1,0 +1,39 @@
+header{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    z-index: 9;
+    box-shadow: 0px 2px 20px black;
+}
+
+.title{
+    padding: 30px;
+}
+
+.title a{
+    text-decoration: none;
+    color: black;
+}
+
+.body{
+    padding-top: 8vh;
+}
+
+
+.pages ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.pages a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}

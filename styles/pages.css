@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    backdrop-filter: blur(3px);
+}
+
+.hero-cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    gap: 50px;
+    
+    text-shadow: 0px 0px 10px black;
+    color: white;
+}
+
+.hero-cont h2{
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+}
+
+.hero-cont p{
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+}
+
+.cont ul{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+    gap: 40px;
+}
